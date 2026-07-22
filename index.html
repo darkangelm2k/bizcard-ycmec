@@ -6,7 +6,7 @@
     <title>Yarid Antonio Cuartas | Tarjeta Corporativa</title>
     <style>
         :root {
-            --primary-color: #0f172a; /* Azul corporativo oscuro */
+            --primary-color: #0f172a;
             --bg-color: #f8fafc;
             --card-bg: #ffffff;
             --text-main: #1e293b;
@@ -33,7 +33,6 @@
             position: relative; 
         }
         
-        /* LOGO AJUSTADO A LA IZQUIERDA Y MÁS GRANDE */
         .company-logo {
             position: absolute;
             top: 25px;
@@ -122,7 +121,7 @@
 <body>
 
     <div class="card-container">
-        <!-- Logo de la empresa en la esquina izquierda -->
+        <!-- Logo de la empresa -->
         <img src="logo.png" alt="Logo Empresa" class="company-logo" onerror="this.style.display='none'">
 
         <!-- Foto de perfil -->
@@ -140,8 +139,14 @@
         </div>
 
         <div class="wallet-container">
-            <a href="https://www.pass2u.net/p/pN_GAkyB_s_q?openExternalBrowser=1" target="_blank">
+            <!-- Botón para Apple Wallet -->
+            <a href="AQUI_PONES_EL_LINK_DE_APPLE" target="_blank">
                 <img src="apple.png" alt="Añadir a Apple Wallet" class="wallet-badge">
+            </a>
+            
+            <!-- Botón para Google Wallet -->
+            <a href="https://pay.google.com/gp/v/save/eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ3YWxsZXR3YWxsZXQtbG9jYWxAZ3Jvd3NwYWNlLXJvLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiZ29vZ2xlIiwidHlwIjoic2F2ZXRvd2FsbGV0IiwiaWF0IjoxNzg0NjgyMjQ1LCJvcmlnaW5zIjpbImh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImh0dHBzOi8vd2FsbGV0d2FsbGV0LWxvY2FsLmFsZW4ucm8iLCJodHRwczovL3dhbGxldHdhbGxldC5hbGVuLnJvIl0sInBheWxvYWQiOnsiZ2VuZXJpY0NsYXNzZXMiOlt7ImlkIjoiMzM4ODAwMDAwMDAyMzA4Mzc3MC53YWxsZXR3YWxsZXQtZ2VuZXJpYyJ9XSwiZ2VuZXJpY09iamVjdHMiOlt7ImlkIjoiMzM4ODAwMDAwMDAyMzA4Mzc3MC55YXJpZC1jdWFydGFzLWFyYW5nby02MjUxYWNjMy1iNTlmLTQ0NmMtOTAyNC0zMDQ5ZjhmMGRkZDMiLCJjbGFzc0lkIjoiMzM4ODAwMDAwMDAyMzA4Mzc3MC53YWxsZXR3YWxsZXQtZ2VuZXJpYyIsInN0YXRlIjoiQUNUSVZFIiwibG9nbyI6eyJzb3VyY2VVcmkiOnsidXJpIjoiaHR0cHM6Ly93YWxsZXR3YWxsZXQuYWxlbi5yby9hcGkvZ29vZ2xlLXdhbGxldC9sb2dvL2xvZ29zL2VkMzY1NjM2LTZiMWItNGM5Mi04ZWFlLWNkM2Y1Mzk1NGNlZi5wbmcifSwiY29udGVudERlc2NyaXB0aW9uIjp7ImRlZmF1bHRWYWx1ZSI6eyJsYW5ndWFnZSI6ImVuLVVTIiwidmFsdWUiOiJZYXJpZCBDdWFydGFzIEFyYW5nbyBsb2dvIn19fSwiYmFyY29kZSI6eyJ0eXBlIjoiUVJfQ09ERSIsInZhbHVlIjoiaHR0cHM6Ly9iaXpjYXJkLXljbWVjLnZlcmNlbC5hcHAvIiwiYWx0ZXJuYXRlVGV4dCI6Imh0dHBzOi8vYml6Y2FyZC15Y21lYy52ZXJjZWwuYXBwLyJ9LCJjYXJkVGl0bGUiOnsiZGVmYXVsdFZhbHVlIjp7Imxhbmd1YWdlIjoiZW4tVVMiLCJ2YWx1ZSI6IllhcmlkIEN1YXJ0YXMgQXJhbmdvIn19LCJoZWFkZXIiOnsiZGVmYXVsdFZhbHVlIjp7Imxhbmd1YWdlIjoiZW4tVVMiLCJ2YWx1ZSI6Iis1MSA5MTMgMDMyIDU2NCJ9fSwic3ViaGVhZGVyIjp7ImRlZmF1bHRWYWx1ZSI6eyJsYW5ndWFnZSI6ImVuLVVTIiwidmFsdWUiOiJ5LmN1YXJ0YXNAbWljaGlnYW5jb3JwLmVkdS5wZSJ9fSwiaGV4QmFja2dyb3VuZENvbG9yIjoiIzE4MTgxYiJ9XX19.E9pLjMfXKijShFH0x4IjbgKJ6tUE9hFSV-X7ik6hAYXmU-04-TVy5gVfIknijNmVVQqWupO_IDmi6uNgKnc-bzVWL1SrwpX-e_n9KHbAvo7b2q0zmKvcLaML9vdO6J5Yts2GsNywhDk0PcSnybM_iF8pKb190-IBPzOF5SKoSq_q9D9POFP5teWdbt6k_UT7fc52nMKL01mwJDf1XemTVmSSzzKLbbUHOGVDcyV0WVRcqD-MPRZJgbP1i69d2qHybOjjxnDgNX9nCu14SNothRuh9QRI7AhWxrbtmWLJK1u6CDRWMJ1jObe7U0ciNU4z4OMwvtztYjSPGBrRhmHP6A" target="_blank">
+                <img src="google.png" alt="Añadir a Google Wallet" class="wallet-badge">
             </a>
         </div>
     </div>
